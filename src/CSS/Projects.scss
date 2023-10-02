@@ -41,14 +41,24 @@
                         overflow: hidden;
                         width: 53rem;
                         a{
+                            text-decoration: none;
                             img{
                                 height: auto;
                                 width: 100%;
                                 transform: translateY(0%);
                                 transition: transform 10s ease-in-out 0s;
                             }
-                            img:hover{
-                                transform: translateY(-83%);
+                            .img-hover-1:hover{
+                                transform: translateY(-88%);
+                            }
+                            .img-hover-2:hover{
+                                transform: translateY(-85%);
+                            }
+                            .img-hover-3:hover{
+                                transform: translateY(0);
+                            }
+                            .img-hover-4:hover{
+                                transform: translateY(0);
                             }
                         }
                     }
@@ -155,6 +165,7 @@
             .project-content{
                 .projects-grid{
                     .project_card{
+                        width: 100%;
                         .project-img{
                             width: 100%;
                         }

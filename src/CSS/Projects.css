@@ -1,0 +1,181 @@
+.projects {
+  background-color: #f9f9f9;
+  padding: 15rem 0;
+}
+.projects .container {
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 0 4rem;
+}
+.projects .container .project-content {
+  display: flex;
+  flex-direction: column;
+}
+.projects .container .project-content p {
+  color: #147efb;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.projects .container .project-content h3 {
+  color: #2d2e32;
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+}
+.projects .container .project-content .projects-grid {
+  grid-gap: 5rem;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  height: auto;
+  width: 100%;
+}
+.projects .container .project-content .projects-grid .project_card {
+  background-color: #fff;
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.projects .container .project-content .projects-grid .project_card .project-img {
+  background-color: hsla(0, 0%, 46%, 0.2);
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  overflow: hidden;
+  width: 53rem;
+}
+.projects .container .project-content .projects-grid .project_card .project-img a {
+  text-decoration: none;
+}
+.projects .container .project-content .projects-grid .project_card .project-img a img {
+  height: auto;
+  width: 100%;
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+}
+.projects .container .project-content .projects-grid .project_card .project-img a .img-hover-1:hover {
+  transform: translateY(-88%);
+}
+.projects .container .project-content .projects-grid .project_card .project-img a .img-hover-2:hover {
+  transform: translateY(-85%);
+}
+.projects .container .project-content .projects-grid .project_card .project-img a .img-hover-3:hover {
+  transform: translateY(0);
+}
+.projects .container .project-content .projects-grid .project_card .project-img a .img-hover-4:hover {
+  transform: translateY(0);
+}
+.projects .container .project-content .projects-grid .type__1 {
+  flex-direction: row;
+  gap: 8rem;
+  height: 40rem;
+  padding: 2rem;
+}
+.projects .container .project-content .projects-grid .reversed {
+  flex-direction: row-reverse;
+}
+.projects .container .project-content .projects-grid .project-text {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  width: 30rem;
+}
+.projects .container .project-content .projects-grid .project-text h3 {
+  color: #2d2e32;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.projects .container .project-content .projects-grid .project-text p {
+  color: #767676;
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: none;
+}
+.projects .container .project-content .projects-grid .project-text .stack {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.projects .container .project-content .projects-grid .project-text .stack p {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+  font-family: Mulish, sans-serif;
+  font-weight: 600;
+  padding: 1rem 1.3rem;
+}
+.projects .container .project-content .projects-grid .project-text .links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.projects .container .project-content .projects-grid .project-text .links a {
+  display: flex;
+  align-items: center;
+  color: #2d2e32;
+  font-size: 1.7rem;
+  font-weight: 500;
+  gap: 5px;
+  text-decoration: none;
+}
+.projects .container .project-content .projects-grid .project-text .links a .icon {
+  font-size: 2.5rem;
+}
+.projects .container .project-content .projects-grid .project-text .links a:hover {
+  color: #147efb;
+}
+
+@media (max-width: 1020px) {
+  .projects {
+    padding: 8rem 0;
+  }
+  .projects .container .project-content .projects-grid .project_card {
+    flex-direction: column;
+    gap: 3rem;
+    height: 75rem;
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .projects .container .project-content .projects-grid .project_card .project-text {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 650px) {
+  .projects .container .project-content .projects-grid .project_card {
+    width: 100%;
+  }
+  .projects .container .project-content .projects-grid .project_card .project-img {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .projects .container .project-content {
+    text-align: center;
+  }
+}
+@media (max-width: 460px) {
+  .projects .container {
+    padding: 0 1.7rem;
+  }
+}
+@media (max-width: 460px) {
+  .projects .container .project-content .projects-grid .type__1 {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .projects .container .project-content .projects-grid .project_card .project-text {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Projects.css.map */

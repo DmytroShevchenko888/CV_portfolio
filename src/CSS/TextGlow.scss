@@ -1,0 +1,89 @@
+.glow-text{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        li {
+            list-style: none;
+            font-family: arial;
+            font-size: 3em;
+            letter-spacing: 15px;
+            text-shadow: none;
+            animation: animate 1s infinite linear;
+            &:nth-child(1) {
+                animation-delay: .4s;
+            }
+            &:nth-child(2) {
+                animation-delay: .6s;
+            }
+            &:nth-child(3) {
+                animation-delay: .8s;
+            }
+            &:nth-child(4) {
+                animation-delay: 1s;
+            }
+            &:nth-child(5) {
+                animation-delay: 1.2s;
+            }
+            &:nth-child(6) {
+                animation-delay: 1.4s;
+            }
+        }
+    }
+}
+
+@media(max-width: 1020px){
+    .glow-text{
+        height: 450px;
+    }
+}
+
+
+@keyframes animate{
+    0%{
+        color: #484848;
+        text-shadow: none;
+    }
+    18%{
+        color: #484848;
+        text-shadow: none;
+    }
+    20%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900
+            ,0 0 20px #ff6c00;
+    }
+    30%{
+        color: #484848;
+        text-shadow: none;
+    }
+    35%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900
+            ,0 0 20px #ff6c00;
+    }
+    70%{
+        color: #484848;
+        text-shadow: none;
+    }
+    85%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900
+            ,0 0 20px #ff6c00;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+    }
+    100%{
+        color: #484848;
+        text-shadow: none;
+    }
+}
