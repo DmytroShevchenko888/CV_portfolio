@@ -52,7 +52,8 @@ function Projects() {
                         <div className="project-text">
                             <h3>BIKE SHOP 🚲</h3>
                             <p>
-                            Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.
+                                Bike Shop is a e-commerce project that allows users to search and buy different bicycles.  Joint project with 
+                                &nbsp;<a href='https://github.com/alexey-sevastynov'>Alexey Sevastynov</a>.
                             </p>
                             <div className="stack">
                                 <p>React</p>

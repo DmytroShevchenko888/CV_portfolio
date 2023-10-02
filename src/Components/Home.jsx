@@ -4,6 +4,7 @@ import waving_hand from "../Assets/waving.png"
 import html from "../Assets/html.svg"
 import css from "../Assets/css.svg"
 import js from "../Assets/js.svg"
+import ts from "../Assets/ts.svg"
 import react from "../Assets/react.svg"
 import tailwind from "../Assets/tailwind.svg"
 import scss from "../Assets/scss.svg"
@@ -38,6 +39,7 @@ function Home() {
                             <li><img src={html} title="HTML5" alt="program_img" /></li>
                             <li><img src={css} title="CSS" alt="program_img" /></li>
                             <li><img src={js} title="JavaScript" alt="program_img" /></li>
+                            <li><img src={ts} title="TypeScript" alt="program_img" /></li>
                             <li><img src={react} title="React" alt="program_img" /></li>
                             <li><img src={tailwind} title="Tailwind" alt="program_img" /></li>
                             <li><img src={scss} title="SASS" alt="program_img" /></li>
